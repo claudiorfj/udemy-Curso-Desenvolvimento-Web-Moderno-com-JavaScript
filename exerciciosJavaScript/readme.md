@@ -1,1 +1,1 @@
-Curso Web Moderno - Exercícios Javascript
+Exercícios Javascript
