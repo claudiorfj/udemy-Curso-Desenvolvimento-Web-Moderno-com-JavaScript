@@ -36,5 +36,6 @@
     <td>R$ 2,80</td>
   </tr>
 </table>
+<br>
 Implemente uma função que receba como parâmetros o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item. Use o comando switch. Crie um caso default para produto não existente.
 

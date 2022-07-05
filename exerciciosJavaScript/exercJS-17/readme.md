@@ -18,6 +18,7 @@ trabalho, de acordo com a tabela abaixo:
     <td>20%</td>
   </tr>
 </table>
+<br>
 Faça uma função que leia o plano de trabalho e o salário atual de um funcionário e calcula e imprime o seu
 novo salário. Use a estrutura switch e faça um caso default que indique que o plano é inválido.
 
