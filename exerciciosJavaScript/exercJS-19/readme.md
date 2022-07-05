@@ -7,26 +7,32 @@
   </tr>
   <tr>
     <td>100</td>
-    <td>200</td>
-    <td>300</td>
-    <td>400</td>
-    <td>500</td>
-    <td>600</td>
+    <td>Cachorro Quente</td>
+    <td>R$ 3,00</td>
   </tr>
   <tr>
-    <td>Cachorro Quente</td>
+    <td>200</td>
     <td>Hambúrguer Simples</td>
-    <td>Cheeseburguer</td>
-    <td>Bauru</td>
-    <td>Refrigerante</td>
-    <td>Suco</td>
-  </tr>
-    <tr>
-    <td>R$ 3,00</td>
     <td>R$ 4,00</td>
+  </tr>
+  <tr>
+    <td>300</td>
+    <td>Cheeseburguer</td>
     <td>R$ 5,50</td>
+  </tr>
+  <tr>
+    <td>400</td>
+    <td>Bauru</td>
     <td>R$ 7,50</td>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>Refrigerante</td>
     <td>R$ 3,50</td>
+  </tr>
+  <tr>
+    <td>600</td>
+    <td>Suco</td>
     <td>R$ 2,80</td>
   </tr>
 </table>

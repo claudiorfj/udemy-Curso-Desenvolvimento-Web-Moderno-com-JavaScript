@@ -7,12 +7,14 @@ trabalho, de acordo com a tabela abaixo:
   </tr>
   <tr>
     <td>A</td>
-    <td>B</td>
-    <td>C</td>
+    <td>10%</td>
   </tr>
   <tr>
-    <td>10%</td>
+    <td>B</td>
     <td>15%</td>
+  </tr>
+  <tr>
+    <td>C</td>
     <td>20%</td>
   </tr>
 </table>
