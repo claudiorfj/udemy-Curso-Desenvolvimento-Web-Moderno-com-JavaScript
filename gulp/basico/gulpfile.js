@@ -1,5 +1,5 @@
 const gulp = require('gulp')
-const series = gulp.series
+const { series, parallel } = require('gulp')
 
 const antes1 = cb => {
     console.log('Tarefa Antes 1!')
@@ -11,20 +11,26 @@ const antes2 = cb => {
     return cb()
 }
 
-function copiar(cb){
-    gulp.src(['pastaA/arquivo1.txt', 'pastaA/arquivo2.txt'])
+function copiar(cb) {
+    // gulp.src(['pastaA/arquivo1.txt', 'pastaA/arquivo2.txt'])
+
+    gulp.src('pastaA/**/*.txt')
+        // .pipe(imagePelaMetade())
+        // .pipe(imageEmPretoEBranco())
+        // .pipe(transformacaoA())
+        // .pipe(transformacaoB())
+        // .pipe(transformacaoC())
         .pipe(gulp.dest('pastaB'))
     return cb()
 }
 
 const fim = cb => {
-    console.log('Tarefa fim!')
+    console.log('Tarefa Fim!')
     return cb()
 }
 
 module.exports.default = series(
-    antes1,
-    antes2,
+    parallel(antes1, antes2),
     copiar,
     fim,
 )
