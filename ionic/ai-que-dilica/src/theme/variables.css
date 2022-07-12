@@ -227,10 +227,16 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-item-background: #1e1e1e;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #e02246;
 
     --ion-tab-bar-background: #1f1f1f;
 
     --ion-card-background: #1e1e1e;
   }
+
+  @font-face {
+    font-family: 'Poppins', sans-serif;;
+    src: url('../fonts/Poppins-Regular.ttf');
+  }
+
 }

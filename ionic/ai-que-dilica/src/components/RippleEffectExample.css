@@ -1,0 +1,16 @@
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+
+    font-size: 4rem;
+    
+
+    border-radius: 20px;
+    height: 8rem;
+    width: 30rem;
+  }
+
+  @font-face {
+    font-family: 'Poppins', sans-serif;;
+    src: url('../fonts/Poppins-Regular.ttf');
+  }

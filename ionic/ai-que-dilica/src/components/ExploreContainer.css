@@ -22,3 +22,8 @@
 .container a {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: 'Poppins', sans-serif;;
+  src: url('../fonts/Poppins-Regular.ttf');
+}
