@@ -1,0 +1,7 @@
+{
+  "name": "Ai Que Diliça",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
