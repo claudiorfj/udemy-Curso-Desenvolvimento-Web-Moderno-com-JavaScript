@@ -4,7 +4,7 @@
 }
 
 .button {
-    font-size: 1.4em;
+    font-size: 1.5em;
     background-color: var(--bg-button);
     border: none;
     border-right: var(--border-button);
@@ -12,13 +12,14 @@
     outline: none;
 }
 
-.button:active{
+.button:active {
     background-color: #ccc;
 }
 
 .button.double {
     grid-column: span 2;
 }
+
 
 .button.triple {
     grid-column: span 3;
