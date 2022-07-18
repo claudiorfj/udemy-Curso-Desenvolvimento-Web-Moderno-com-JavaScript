@@ -1,7 +1,7 @@
-import  './Nav.css'
-import React from 'react'
+import "./Nav.css";
+import React from "react";
 
-export default props => 
+export default (props) => (
     <aside className="menu-area">
         <nav className="menu">
             <a href="#/">
@@ -12,3 +12,4 @@ export default props =>
             </a>
         </nav>
     </aside>
+);
